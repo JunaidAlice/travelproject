@@ -6,7 +6,7 @@ import { TiSocialTwitter , TiSocialFacebook,TiSocialLinkedin,TiSocialYoutube ,Ti
 
 export const Footer = () => {
   return (
-            <footer className=' rounded-sm p-4 bg-black text-white bottom-0 '>
+            <footer className=' rounded-sm p-4 bg-black text-white bottom-0  '>
     
         <div className='flex gap-6'>
             <h1 className='font-extrabold '>Get UpTo Date</h1>

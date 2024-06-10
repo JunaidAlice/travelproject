@@ -101,18 +101,19 @@ export const Tour = () => {
   ];
   return (
     <>
-      <div className="p-4">
+      <div className="p-4 ">
         <Navbar />
       </div>
       <div className="text-3xl flex justify-center   font-serif">
         Popular Distination
       </div>
-      <div className="grid grid-cols-3 gap-6  ">
+      <div className="grid grid-cols-3 gap-6  shadow-lg drop-shadow-md   ">
         {card.map((b, ind) => (
           <Card1 key={ind} card={b} />
         ))}
       </div>
-      <Footer />
+      <div className="">
+      <Footer /></div>
     </>
   );
 };

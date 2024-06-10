@@ -29,7 +29,7 @@ export const Navbar = () => {
     },
   ];
   return (
-    <header className=" flex justify-between items-center ">
+    <header className=" flex justify-between items-center drop-shadow-mdshadow">
       <div className=" ">
         {" "}
         <h1 className="font-bold   cursor-pointer active:ring-blue-500  rounded-md px-4 py-1 ">

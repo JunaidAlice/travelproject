@@ -10,8 +10,8 @@ export const Contact = () => {
         <div className="p-4 ">
           <Navbar />
         </div>
-        <div className="text-center pt-10 justify-center flex  ">
-          <div className=" max-w-fit  grid grid-cols-1 backdrop-blur-sm rounded-md font-semibold p-2">
+        <div className="text-center pt-10 justify-center flex   ">
+          <div className=" max-w-fit  grid grid-cols-1 backdrop-blur-sm rounded-md font-semibold hover:border-blue-600 border   p-2">
           <h1 className="font-bold text-2xl pb-4 ">Get in Touch</h1>
           <h1 className="pb-4">
             Phone Number <span>0200000000</span>{" "}
