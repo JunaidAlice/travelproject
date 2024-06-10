@@ -1,13 +1,15 @@
 import React from "react";
 import { Navbar } from "../components/Navbar";
+import { Footer } from "../pages/Footer";
+
 // import { Burger } from "./pages/burger";
 export const Apply = () => {
   return (
-    <div className="bg-gradient-to-r from-slate-100 h-screen  p-4 to-slate-300">
+    <div className="bg-gradient-to-r from-slate-100 h-screen  pt-4  to-slate-300">
       <Navbar />
       {/* <Burger/> */}
       
-      <div className=" text-center flex justify-center pt-28 ">
+      <div className=" text-center flex justify-center pt-28 pb-24 ">
         <div className=" overflow-hidden grid grid-cols-2  max-w-[80%] rounded-2xl bg-white drop-shadow-2xl shadow-xl ">
           <div className=" p-10 ">
             <h1 className="font-bold text-2xl mb-4">Sign In </h1>
@@ -47,9 +49,11 @@ export const Apply = () => {
             </button>
           </div>
         </div>
-  {/* <burger/> */}
-        <div> </div>
+ 
+      
       </div>
+      <Footer/>
+     
     </div>
   );
 };

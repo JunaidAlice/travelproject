@@ -4,7 +4,7 @@ import video from '../assets/videos/2.mp4'
 export default function Hero() {
   return (
     <>
-      <div className='flex'>
+      <div className=''>
         <div>
           <div className=" text-6xl font-bold mt-32 ml-4   font-serif">
             Travel and feel <br />
@@ -22,6 +22,7 @@ export default function Hero() {
             dolorem?
           </p>
         </div>
+        
         <div className="mt-6">
           <a
             href="https://booking.com"
@@ -32,9 +33,7 @@ export default function Hero() {
           </a>
         </div>
 
-        <div>
-          <video src="2.mp4">{video}</video>
-        </div>
+        
       </div>
     </>
   );
