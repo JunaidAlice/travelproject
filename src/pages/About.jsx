@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy } from "react";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "./Footer";
 
@@ -6,7 +6,7 @@ export const About = () => {
   return (<>
   
     
-    <div className="  bg-[url(C:\Users\maske\Desktop\travel\src\assets\images\4.jpg)] bg-cover h-screen p-4">
+    <div onLoad={lazy} className="  bg-[url(./assets/images/4.jpg)] bg-cover h-screen p-4">
       <Navbar/>
       <h1 className="font-extrabold text-2xl justify-center flex  pt-6">
         FoG Travels

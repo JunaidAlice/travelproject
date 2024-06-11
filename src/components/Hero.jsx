@@ -1,5 +1,5 @@
 // import { CardComponents } from "/src/Cards/CardComponents";
-import video from '../assets/videos/2.mp4'
+// import video from '../assets/videos/2.mp4'
 
 export default function Hero() {
   return (

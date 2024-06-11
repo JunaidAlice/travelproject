@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy } from "react";
 
 
 const Card1 = ({ card }) => 
@@ -7,7 +7,7 @@ const Card1 = ({ card }) =>
  
   return (
     <div className="flex  justify-around mt-20   ">
-      <div
+      <div onLoad={lazy}
         className="max-w-sm rounded  shadow-lg transform 
       transition duration-300 hover:scale-105 bg-cover bg-center mb-4 "
         style={{ backgroundImage: `url(${card.bgImage})` }}

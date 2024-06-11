@@ -1,11 +1,11 @@
-import React from "react";
+import React, { lazy } from "react";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "./Footer";
 // import bgImage from '../assets/images/contact1.jpeg'
 
 export const Contact = () => {
   return (
-    <div className=" bg-[url('C:\Users\maske\Desktop\travel\src\assets\images\contact1.jpg')] bg-cover bg-center ">
+    <div onLoad={lazy} className=" bg-[url('./assets/images/contact1.jpg')] bg-cover bg-center ">
       <div className="">
         <div className="p-4 ">
           <Navbar />
